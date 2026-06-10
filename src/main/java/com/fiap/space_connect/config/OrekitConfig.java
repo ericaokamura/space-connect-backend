@@ -15,7 +15,7 @@ public class OrekitConfig {
     public void init() throws Exception {
 
         File orekitData =
-                new File("src/main/resources/regular-data");
+                new File("src/main/resources/orekit-data");
 
         DataProvidersManager manager =
                 DataContext.getDefault()
